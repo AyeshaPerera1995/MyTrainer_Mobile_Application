@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".ForgetPassOne">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="- Forget Password -" />
+
+    <EditText
+        android:id="@+id/txtFEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:background="#11000000"
+        android:fontFamily="monospace"
+        android:hint="Enter Your Email"
+        android:textColor="@android:color/darker_gray"
+        android:padding="10dp"
+        android:textColorHint="#777d7a"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Send" />
+
+</LinearLayout>

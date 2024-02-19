@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical"
+    tools:context=".Charts">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:text="WEEKLY REPORTS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnburnCal"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:drawableBottom="@drawable/ic_workout1"
+            android:background="@drawable/bg_squre_transparent"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Burn Calories" />
+
+        <Button
+            android:id="@+id/btngetCal"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:drawableBottom="@drawable/ic_meal2"
+            android:background="@drawable/bg_squre_transparent"
+            android:paddingBottom="30dp"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Get Calories" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".A_AdminHome">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textAllCaps="true"
+        android:text="- Admin Panel -" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnpro"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg_rounded_transparent"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_all_users" />
+
+        <TextView
+            android:id="@+id/textpro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="trainees profiles"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:focusable="false"
+            android:textAllCaps="true"
+            android:paddingTop="10dp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btntrainer"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg_rounded_transparent"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_mytrainer" />
+
+        <TextView
+            android:id="@+id/texttrainer"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="My Trainer"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".A_EditPersonalTrainerPro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bb"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/shape_layout"
+            android:layout_width="146dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="left"
+            android:background="@drawable/circular_bordershape">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/myCardView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                app:cardCornerRadius="70dp"
+                android:background="#000"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/imgTrainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000"
+                    android:scaleType="centerCrop"/>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnChangeTrainerImage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_bg_rounded_transparent"
+            android:fontFamily="monospace"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="Upload Picture"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/trainerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/trainerDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#77f7f6f6"
+        android:justificationMode="inter_word"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="15dp"
+            android:textColor="#cecbcb"
+            android:textStyle="bold"
+            android:text="Contact"/>
+
+        <TextView
+            android:id="@+id/trainerMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:textColor="#77f7f6f6"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="15dp"
+            android:textColor="#cecbcb"
+            android:textStyle="bold"
+            android:text="Email"/>
+
+        <TextView
+            android:id="@+id/trainerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#77f7f6f6"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_bg_rounded_transparent"
+        android:layout_gravity="center"
+        android:text="update profile"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

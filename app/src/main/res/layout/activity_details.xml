@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".Details">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Enter All Details Correctly!"
+                android:textColor="#dad8d8"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Your Training Purpose"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/Detailspin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_rounded_corners"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/Detailheight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_height"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Height(meters)"
+                android:inputType="text|number"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Detailweight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_weight"
+                android:ems="10"
+                android:fontFamily="monospace"
+                android:hint="Weight(kilograms)"
+                android:inputType="text|number"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Medical Conditions"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Usual Fevers :"
+                    android:textColor="#777d7a"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/Detailfevers"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/text_rounded_corners"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:lines="3"
+                    android:padding="4dp"
+                    android:textColor="#777d7a"
+                    android:textColorHint="#898484"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Alajics :"
+                    android:textColor="#777d7a"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/Detailsalajic"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/text_rounded_corners"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:lines="3"
+                    android:padding="4dp"
+                    android:textColor="#777d7a"
+                    android:textColorHint="#898484"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Other Issues:"
+                    android:textColor="#777d7a"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/DetailOthers"
+                    android:layout_width="295dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/text_rounded_corners"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:hint="Pains, Surgeries or accidents etc...."
+                    android:lines="5"
+                    android:padding="4dp"
+                    android:textColor="#777d7a"
+                    android:textColorHint="#898484"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bg_rounded_corners1"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/btnsubmitDetail"
+                    android:layout_width="250dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/back1"
+                    android:fontFamily="monospace"
+                    android:text="SUBMIT"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".A_SheduleDates">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:fontFamily="monospace"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Date :" />
+
+        <Button
+            android:id="@+id/btnChangeDate"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_squre_transparent"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Choose Date" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtNote"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:ems="10"
+        android:lines="6"
+        android:gravity="start"
+        android:hint="Add Event ...."
+        android:textColorHint="#ffffff"
+        android:inputType="textMultiLine" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/txtMealCount"
+        android:background="@drawable/button_bg_rounded_corners1" >
+
+        <Button
+            android:id="@+id/btnSaveNote"
+            android:layout_width="155dp"
+            android:layout_height="30dp"
+            android:fontFamily="monospace"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/back1"
+            android:text="SAVE SCHEDULE" />
+    </FrameLayout>
+
+</LinearLayout>

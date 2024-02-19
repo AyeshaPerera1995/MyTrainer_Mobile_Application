@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".A_Payments">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/tname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:fontFamily="monospace"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Ayesha Perera" />
+
+            <TextView
+                android:id="@+id/temail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:text="ayeshaperera9519@gmail.com" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#777d7a"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="Admission Payment"
+                    android:textColor="#777d7a"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/ad_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:checked="false"
+                    android:buttonTint="#ffffff"
+                    android:onClick="onCheckboxClicked"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:text="Choose a Package :"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/pay_package"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/text_rounded_corners"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/offersspinner"
+                android:background="@drawable/button_bg_rounded_corners1"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/back1"
+                    android:fontFamily="monospace"
+                    android:text="NEXT"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

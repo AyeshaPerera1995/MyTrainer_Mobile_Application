@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".A_Update_Slide">
+
+    <ImageView
+        android:id="@+id/slideImage"
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/dialog_box" />
+
+    <ImageView
+        android:id="@+id/btnselectImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cam"
+        android:background="@drawable/meal_items_border" />
+
+    <TextView
+        android:id="@+id/btnuploadSlide"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/slideImage"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/button_bg_rounded_transparent"
+        android:textAllCaps="true"
+        android:text="Upload Slide" />
+
+    <TextView
+        android:id="@+id/btnPreview"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnuploadSlide"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/button_bg_rounded_transparent"
+        android:textAllCaps="true"
+        android:text="Preview" />
+
+    <LinearLayout
+        android:id="@+id/btnViewList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPreview"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:text="Slide List" />
+
+        <ImageButton
+            android:id="@+id/btnArrowIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/slideList"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btnViewList"/>
+
+</RelativeLayout>

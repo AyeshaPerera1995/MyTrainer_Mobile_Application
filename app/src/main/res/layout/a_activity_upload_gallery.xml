@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A_UploadGallery">
+
+    <ListView
+        android:id="@+id/albumsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ffffff"
+        android:listSelector="#7c42cc"
+        android:dividerHeight="3dp"
+        android:padding="8dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNewAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="270dp"
+        android:src="@drawable/ic_add"/>
+
+</RelativeLayout>

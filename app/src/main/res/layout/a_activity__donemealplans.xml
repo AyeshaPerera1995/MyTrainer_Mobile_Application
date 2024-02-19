@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".A_DoneMealPlans" >
+
+        <LinearLayout
+            android:id="@+id/updateLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="TODAY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text=" ( " />
+
+        <TextView
+            android:id="@+id/c_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="31 Dec 2019" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text=" )" />
+
+        </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/doneMealsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:divider="#ffffff"
+        android:dividerHeight="5dp"
+        android:footerDividersEnabled="false"/>
+
+</RelativeLayout>

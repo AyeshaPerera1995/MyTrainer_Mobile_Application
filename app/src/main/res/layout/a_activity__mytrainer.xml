@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    tools:context=".A_MyTrainer">
+
+    <Button
+        android:id="@+id/btncreateadmin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="admin management"/>
+
+    <Button
+        android:id="@+id/btnusermanage"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_squre_transparent"
+        android:drawableLeft="@drawable/ic_users"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="user Management"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btntrainermanage"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_u"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="trainer profile" />
+
+    <Button
+        android:id="@+id/btnrequests"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_desc"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="pending requests" />
+
+    <Button
+        android:id="@+id/btnupdateGallery"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_gallery"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="upload gallery" />
+
+    <Button
+        android:id="@+id/btnupdateSlides"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_purpose"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="update slides" />
+
+    <Button
+        android:id="@+id/btnAsearch"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_squre_transparent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/ic_search"
+        android:fontFamily="monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="advanced search" />
+
+</LinearLayout>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".A_TraineeProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Timage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="15dp"
+                    app:srcCompat="@drawable/admin" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Tname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/darker_gray"
+                        android:fontFamily="monospace"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Ayesha Perera" />
+
+                    <TextView
+                        android:id="@+id/Temail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="12dp"
+                        android:fontFamily="monospace"
+                        android:textStyle="bold"
+                        android:text="ayeshaperera9519@gmail.com" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/Tbday"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_u"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="monospace"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tmobile"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_mobile"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="monospace"
+                android:inputType="text|phone"
+                android:enabled="false"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Taddress"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_location"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="monospace"
+                android:inputType="textMultiLine"
+                android:enabled="false"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tgender"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:ems="10"
+                android:focusable="false"
+                android:fontFamily="monospace"
+                android:enabled="false"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#777d7a"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/Theight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_height"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType="text|number"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tweight"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_weight"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType="text|number"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:textSize="12dp"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColorHint="#e2dede"
+                    android:hint="(last updated in " />
+
+                <TextView
+                    android:id="@+id/Tlastupdate_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="#e2dede" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColorHint="#e2dede"
+                    android:hint=")" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Purpose"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tpurpose"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_purpose"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:inputType="text|number"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#777d7a"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Usual Fevers"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tfevers"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_sick"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:hint="None"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Alajics"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Talajics"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_sick"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:hint="None"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                android:text="Other"
+                android:textColor="#777d7a"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Tothers"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/text_rounded_corners"
+                android:drawableLeft="@drawable/ic_action_sick"
+                android:ems="10"
+                android:focusable="false"
+                android:enabled="false"
+                android:fontFamily="monospace"
+                android:hint="None"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#777d7a"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Tnote"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/text_rounded_corners"
+                    android:ems="10"
+                    android:fontFamily="monospace"
+                    android:hint="Note......"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:padding="5dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#777d7a"
+                    android:textSize="15sp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg_rounded_corners1" >
+
+                    <Button
+                        android:id="@+id/btnTsubmit"
+                        android:layout_width="75dp"
+                        android:layout_height="25dp"
+                        android:fontFamily="monospace"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/back1"
+                        android:text="SUBMIT" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
