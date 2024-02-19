@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "641775930102",
+    "firebase_url": "https://mytrainer-29731.firebaseio.com",
+    "project_id": "mytrainer-29731",
+    "storage_bucket": "mytrainer-29731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641775930102:android:9e1545ab300db71a817ad7",
+        "android_client_info": {
+          "package_name": "com.aye.mytrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641775930102-ohrjn591r0s418s8s9vhj8rgds8ki7et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZIaFKBmnQwF7j37kn-xXkcfgeBo9OK1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641775930102-ohrjn591r0s418s8s9vhj8rgds8ki7et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
