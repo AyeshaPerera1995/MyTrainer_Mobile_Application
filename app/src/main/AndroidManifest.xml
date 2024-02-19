@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aye.mytrainer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyWorkouts"
+            android:label="Today My Workout Plan" />
+        <activity
+            android:name=".MealPlan"
+            android:label="Today My Meal Plan" />
+        <activity
+            android:name=".TimeSchedule"
+            android:label="Schedule Days" />
+        <activity
+            android:name=".SendRequest"
+            android:label="Send Requests" />
+        <activity
+            android:name=".MyTrainerProfile"
+            android:label="Trainer Profile" />
+        <activity
+            android:name=".AppGallery"
+            android:label="Gallery" />
+        <activity
+            android:name=".AlbumImages"
+            android:label="Gallery Images" />
+        <activity
+            android:name=".A_AdminHome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".A_TraineesProfiles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".A_TraineesHome" />
+        <activity android:name=".A_TraineeProfile" />
+        <activity android:name=".A_DoneWorkouts" />
+        <activity android:name=".A_DoneMealPlans" />
+        <activity android:name=".A_UploadNewWorkouts" />
+        <activity android:name=".A_UploadNewMealPlans" />
+        <activity android:name=".A_Payments" />
+        <activity android:name=".Details" />
+        <activity android:name=".A_MyTrainer" />
+        <activity android:name=".A_PersonalTrainerPro" />
+        <activity android:name=".A_EditPersonalTrainerPro" />
+        <activity android:name=".A_ChangePass" />
+        <activity
+            android:name=".A_UploadGallery"
+            android:label="Gallery" />
+        <activity
+            android:name=".A_ViewAlbum"
+            android:label="View Album" />
+        <activity android:name=".UploadMealDialog" />
+        <activity
+            android:name=".A_UserManagement"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".A_BlockUsers"
+            android:label="Block Users" />
+        <activity android:name=".A_Update_Slide" />
+        <activity android:name=".ForgetPassOne" />
+        <activity android:name=".A_PaymentNext" />
+        <activity android:name=".A_AdminManagement" />
+        <activity
+            android:name=".RequestList"
+            android:label="My Request List" />
+        <activity
+            android:name=".A_RequestList"
+            android:label="Pending Requests" />
+        <activity android:name=".A_SheduleDates" />
+        <activity android:name=".A_ScheduleList" />
+        <activity
+            android:name=".Reports"
+            android:label="Burn Calories" />
+        <activity android:name=".Charts"
+            android:label="Weekly Reports" />
+        <activity android:name=".GetCalReports"
+            android:label="Get Calories" />
+    </application>
+
+</manifest>
