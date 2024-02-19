@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyTrainer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="agreement">
+        &lt;ol&gt;
+            &lt;li&gt; Personal training sessions that are not rescheduled or canceled 24 hours in advance will result in forfeiture
+of the session and a loss of the financial investment at the rate of one session.&lt;/li&gt;
+            &lt;li&gt; Clients arriving late will receive the remaining scheduled session time, unless other arrangements have
+been previously made with the trainer&lt;/li&gt;
+            &lt;li&gt; The expiration policy requires completion of all personal training sessions within 120 days from the date
+of the contract. Personal training sessions are void after this time period.&lt;/li&gt;
+            &lt;li&gt; No personal training refunds will be issued for any reason, including but not limited to relocation, illness,
+and unused sessions.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;br&gt;
+        &lt;b&gt;If you agree with all these Terms and Conditions,Click Agree and Start Training in MYTRAINER....&lt;/b&gt;&lt;br&gt;
+    </string>
+    <string name="title_activity_a__create__admin">A_Create_Admin</string>
+    <string name="title_activity_sample">Sample</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellowFont">#f6a800</color>
+    <color name="brownlight">#75391c</color>
+    <color name="brownDark">#330f03</color>
+    <color name="darkBlue">#44737d</color>
+</resources>
