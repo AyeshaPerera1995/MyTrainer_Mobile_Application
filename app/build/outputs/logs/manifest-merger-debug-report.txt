@@ -1,0 +1,551 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\638445c02c2623896489edd1b2df75fc\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.Ibotta:Supported-Picker-Dialogs:1.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\Supported-Picker-Dialogs-1.0.0.aar\3d4eff500e418f7bfd8aeba6d70f150b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b3d69f2817135364b2715e2f38686aa6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\47712e7e3779cfd5daf2c963245466b5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d98ef5125b246e43b89e12c4482ad301\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5e5c24d28d6bdb932279e518e39f5863\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\568c813dcfeaa9c041cfab90551bd361\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.0.aar\09bc32e9f42058b814f71d2d2e1021b2\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.6.0.aar\462e0ae13b85d9ade147b3a979823d50\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.0.aar\b5c5d755dba687de9def7b049a3a9953\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\fea814454e3e096317e28572c57f64c8\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.6.0.aar\b00e74662e573eaabd33b9fa7e05b23f\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\b666ecac8e79b84c3c42b40e63817798\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\e17f9272464ecf66b348aab1f5256f48\AndroidManifest.xml:2:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\9cb01fe96e6f3d1e8ecf756853aeecbb\AndroidManifest.xml:2:1-12:12
+MERGED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:2:1-15:12
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\7e05dd8dbc1fe04dc56a5efadc59d8da\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\library-1.5.6.aar\4890e55dc8c86937c65fca412ba8cd85\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\85f8ff97253317f0bbebd47dbe9acde8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\79a313d2c6df88275bbb708114269d78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\f72a5deff7de098cf0abc3b878d4f08d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\726a5051b7e5f54aa4f3fbf6f5351b2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dd1cab2d6b6caf84396995e32f9fad24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6cdaa7f092947b0fa93916cde6fa8477\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a508b2226637243d22c95b6fa895b0f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b128a0053c1409f768ace51d50894f6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\355a6d328689d29a0243d923822b0944\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271141babaf42eab34e9c926ba6c3801\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4b3d72e910196cd0495de833ba70a819\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f273334e932302551999f2ca308792be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\598e2dc6d4be43b914d27d552e5bf810\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fd25b0e033dcf92b1063492d80147e0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\deb7b7ae0d8eee51987d162a24c101ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bbab45e958a464febe3aaea80a3451d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0b68cd3d73bb6711a7b43d3e87748e66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e9f3850cbe4d7994728f01d2a16ac467\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1c11b848f82c5bd1b956d47477f7fd5a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4351a6bf7dd430cddc690044f7ced5dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2c8ec773ef0deed8f60009cec190a611\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\59f140ba9b41c6e911ac6856babe819d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a9acfdccc4beb7ffaf3721a78a55170a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f9769cf0ff36eb94209a0a1c86870b40\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\312e97a5022b84dec6798590b0d65e96\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b1623b6131ddaa53eea926ef9763240\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\929a1a8df3b79d28576f713413436512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9652403beb9b8d9c81753121cbe72bb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.0.aar\c6053504f4010f84a63f78d36f25836a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.0.aar\04263d18b9210ba86f1c23d8b9ac8d8f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.6.0.aar\6f090876cc93851d92192eef03fa0666\AndroidManifest.xml:2:1-6:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.7.aar\90dacb3b28ba187110ce023104182a24\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\7851ca79d85164ced22a628bf0cc10d8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ce502f1cd051e28bae664ffbaa0ef6db\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\83223e08950a26cddfea1e676651e31c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\5c00f7d87a891a58d421379241717953\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\60df8720d324b5e91123b6fe4fa71509\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.6.0.aar\43898deffa6160b7e5ac87305d38c5bb\AndroidManifest.xml:2:1-6:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+	package
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:1-109:12
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.CAMERA
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:9:22-62
+application
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:11:5-107:19
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\638445c02c2623896489edd1b2df75fc\AndroidManifest.xml:11:5-20
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\638445c02c2623896489edd1b2df75fc\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b3d69f2817135364b2715e2f38686aa6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b3d69f2817135364b2715e2f38686aa6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d98ef5125b246e43b89e12c4482ad301\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d98ef5125b246e43b89e12c4482ad301\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\568c813dcfeaa9c041cfab90551bd361\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\568c813dcfeaa9c041cfab90551bd361\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\fea814454e3e096317e28572c57f64c8\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\fea814454e3e096317e28572c57f64c8\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:19:5-21:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\9cb01fe96e6f3d1e8ecf756853aeecbb\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\9cb01fe96e6f3d1e8ecf756853aeecbb\AndroidManifest.xml:10:5-20
+MERGED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:9:5-13:19
+MERGED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:9:5-13:19
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\7e05dd8dbc1fe04dc56a5efadc59d8da\AndroidManifest.xml:12:5-20
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\7e05dd8dbc1fe04dc56a5efadc59d8da\AndroidManifest.xml:12:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\library-1.5.6.aar\4890e55dc8c86937c65fca412ba8cd85\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\library-1.5.6.aar\4890e55dc8c86937c65fca412ba8cd85\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\85f8ff97253317f0bbebd47dbe9acde8\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\85f8ff97253317f0bbebd47dbe9acde8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e9f3850cbe4d7994728f01d2a16ac467\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e9f3850cbe4d7994728f01d2a16ac467\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.0.aar\c6053504f4010f84a63f78d36f25836a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.0.aar\c6053504f4010f84a63f78d36f25836a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.0.aar\04263d18b9210ba86f1c23d8b9ac8d8f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.0.aar\04263d18b9210ba86f1c23d8b9ac8d8f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.6.0.aar\6f090876cc93851d92192eef03fa0666\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.6.0.aar\6f090876cc93851d92192eef03fa0666\AndroidManifest.xml:5:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.7.aar\90dacb3b28ba187110ce023104182a24\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.7.aar\90dacb3b28ba187110ce023104182a24\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\7851ca79d85164ced22a628bf0cc10d8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\7851ca79d85164ced22a628bf0cc10d8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ce502f1cd051e28bae664ffbaa0ef6db\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ce502f1cd051e28bae664ffbaa0ef6db\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\83223e08950a26cddfea1e676651e31c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\83223e08950a26cddfea1e676651e31c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\5c00f7d87a891a58d421379241717953\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\5c00f7d87a891a58d421379241717953\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\60df8720d324b5e91123b6fe4fa71509\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\60df8720d324b5e91123b6fe4fa71509\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.6.0.aar\43898deffa6160b7e5ac87305d38c5bb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.6.0.aar\43898deffa6160b7e5ac87305d38c5bb\AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:13:9-38
+	android:allowBackup
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.aye.mytrainer.Welcome
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:18:9-20:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:19:13-36
+activity#com.aye.mytrainer.Login
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:22:13-34
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.aye.mytrainer.register
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:30:9-32:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:31:13-37
+activity#com.aye.mytrainer.Home
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:33:9-35:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:34:13-33
+activity#com.aye.mytrainer.MyWorkouts
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:36:9-38:53
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:38:13-50
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:37:13-39
+activity#com.aye.mytrainer.MealPlan
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:39:9-41:50
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:41:13-47
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:40:13-37
+activity#com.aye.mytrainer.TimeSchedule
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:42:9-44:45
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:44:13-42
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:43:13-41
+activity#com.aye.mytrainer.SendRequest
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:45:9-47:45
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:47:13-42
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:46:13-40
+activity#com.aye.mytrainer.MyTrainerProfile
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:48:9-50:47
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:50:13-44
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:49:13-45
+activity#com.aye.mytrainer.AppGallery
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:51:9-53:39
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:52:13-39
+activity#com.aye.mytrainer.AlbumImages
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:54:9-56:46
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:56:13-43
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:55:13-40
+activity#com.aye.mytrainer.A_AdminHome
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:57:9-59:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:59:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:58:13-40
+activity#com.aye.mytrainer.A_TraineesProfiles
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:60:9-62:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:61:13-47
+activity#com.aye.mytrainer.A_TraineesHome
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:63:9-52
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:63:19-49
+activity#com.aye.mytrainer.A_TraineeProfile
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:64:9-54
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:64:19-51
+activity#com.aye.mytrainer.A_DoneWorkouts
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:65:9-52
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:65:19-49
+activity#com.aye.mytrainer.A_DoneMealPlans
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:66:9-53
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:66:19-50
+activity#com.aye.mytrainer.A_UploadNewWorkouts
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:67:9-57
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:67:19-54
+activity#com.aye.mytrainer.A_UploadNewMealPlans
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:68:9-58
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:68:19-55
+activity#com.aye.mytrainer.A_Payments
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:69:9-48
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:69:19-45
+activity#com.aye.mytrainer.Details
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:70:9-45
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:70:19-42
+activity#com.aye.mytrainer.A_MyTrainer
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:71:9-49
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:71:19-46
+activity#com.aye.mytrainer.A_PersonalTrainerPro
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:72:9-58
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:72:19-55
+activity#com.aye.mytrainer.A_EditPersonalTrainerPro
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:73:9-62
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:73:19-59
+activity#com.aye.mytrainer.A_ChangePass
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:74:9-50
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:74:19-47
+activity#com.aye.mytrainer.A_UploadGallery
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:75:9-77:39
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:76:13-44
+activity#com.aye.mytrainer.A_ViewAlbum
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:78:9-80:42
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:80:13-39
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:79:13-40
+activity#com.aye.mytrainer.UploadMealDialog
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:81:9-54
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:81:19-51
+activity#com.aye.mytrainer.A_UserManagement
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:82:9-84:59
+	android:theme
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:84:13-56
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:83:13-45
+activity#com.aye.mytrainer.A_BlockUsers
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:85:9-87:43
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:87:13-40
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:86:13-41
+activity#com.aye.mytrainer.A_Update_Slide
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:88:9-52
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:88:19-49
+activity#com.aye.mytrainer.ForgetPassOne
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:89:9-51
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:89:19-48
+activity#com.aye.mytrainer.A_PaymentNext
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:90:9-51
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:90:19-48
+activity#com.aye.mytrainer.A_AdminManagement
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:91:9-55
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:91:19-52
+activity#com.aye.mytrainer.RequestList
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:92:9-94:47
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:93:13-40
+activity#com.aye.mytrainer.A_RequestList
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:95:9-97:48
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:97:13-45
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:96:13-42
+activity#com.aye.mytrainer.A_SheduleDates
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:98:9-52
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:98:19-49
+activity#com.aye.mytrainer.A_ScheduleList
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:99:9-52
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:99:19-49
+activity#com.aye.mytrainer.Reports
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:100:9-102:45
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:102:13-42
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:101:13-36
+activity#com.aye.mytrainer.Charts
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:103:9-104:46
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:104:13-43
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:103:19-41
+activity#com.aye.mytrainer.GetCalReports
+ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:105:9-106:44
+	android:label
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:106:13-41
+	android:name
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml:105:19-48
+uses-sdk
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\638445c02c2623896489edd1b2df75fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialsearchview-1.4.0.aar\638445c02c2623896489edd1b2df75fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Ibotta:Supported-Picker-Dialogs:1.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\Supported-Picker-Dialogs-1.0.0.aar\3d4eff500e418f7bfd8aeba6d70f150b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Ibotta:Supported-Picker-Dialogs:1.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\Supported-Picker-Dialogs-1.0.0.aar\3d4eff500e418f7bfd8aeba6d70f150b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b3d69f2817135364b2715e2f38686aa6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b3d69f2817135364b2715e2f38686aa6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\47712e7e3779cfd5daf2c963245466b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\47712e7e3779cfd5daf2c963245466b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d98ef5125b246e43b89e12c4482ad301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d98ef5125b246e43b89e12c4482ad301\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5e5c24d28d6bdb932279e518e39f5863\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\5e5c24d28d6bdb932279e518e39f5863\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\568c813dcfeaa9c041cfab90551bd361\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.6.0.aar\568c813dcfeaa9c041cfab90551bd361\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.0.aar\09bc32e9f42058b814f71d2d2e1021b2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-11.6.0.aar\09bc32e9f42058b814f71d2d2e1021b2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.6.0.aar\462e0ae13b85d9ade147b3a979823d50\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.6.0.aar\462e0ae13b85d9ade147b3a979823d50\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.0.aar\b5c5d755dba687de9def7b049a3a9953\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.6.0.aar\b5c5d755dba687de9def7b049a3a9953\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\fea814454e3e096317e28572c57f64c8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\fea814454e3e096317e28572c57f64c8\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.6.0.aar\b00e74662e573eaabd33b9fa7e05b23f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.6.0.aar\b00e74662e573eaabd33b9fa7e05b23f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\b666ecac8e79b84c3c42b40e63817798\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\b666ecac8e79b84c3c42b40e63817798\AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\e17f9272464ecf66b348aab1f5256f48\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\e17f9272464ecf66b348aab1f5256f48\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\9cb01fe96e6f3d1e8ecf756853aeecbb\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\glide-4.8.0.aar\9cb01fe96e6f3d1e8ecf756853aeecbb\AndroidManifest.xml:6:5-8:41
+MERGED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:5:5-7:41
+MERGED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:5:5-7:41
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\7e05dd8dbc1fe04dc56a5efadc59d8da\AndroidManifest.xml:8:5-10:41
+MERGED from [io.paperdb:paperdb:2.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\paperdb-2.6.aar\7e05dd8dbc1fe04dc56a5efadc59d8da\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\library-1.5.6.aar\4890e55dc8c86937c65fca412ba8cd85\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\library-1.5.6.aar\4890e55dc8c86937c65fca412ba8cd85\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\85f8ff97253317f0bbebd47dbe9acde8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\85f8ff97253317f0bbebd47dbe9acde8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\79a313d2c6df88275bbb708114269d78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\79a313d2c6df88275bbb708114269d78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\f72a5deff7de098cf0abc3b878d4f08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\f72a5deff7de098cf0abc3b878d4f08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\726a5051b7e5f54aa4f3fbf6f5351b2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\726a5051b7e5f54aa4f3fbf6f5351b2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dd1cab2d6b6caf84396995e32f9fad24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\dd1cab2d6b6caf84396995e32f9fad24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6cdaa7f092947b0fa93916cde6fa8477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6cdaa7f092947b0fa93916cde6fa8477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a508b2226637243d22c95b6fa895b0f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\a508b2226637243d22c95b6fa895b0f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b128a0053c1409f768ace51d50894f6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b128a0053c1409f768ace51d50894f6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\355a6d328689d29a0243d923822b0944\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\355a6d328689d29a0243d923822b0944\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271141babaf42eab34e9c926ba6c3801\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271141babaf42eab34e9c926ba6c3801\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4b3d72e910196cd0495de833ba70a819\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4b3d72e910196cd0495de833ba70a819\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f273334e932302551999f2ca308792be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f273334e932302551999f2ca308792be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\598e2dc6d4be43b914d27d552e5bf810\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\598e2dc6d4be43b914d27d552e5bf810\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fd25b0e033dcf92b1063492d80147e0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fd25b0e033dcf92b1063492d80147e0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\deb7b7ae0d8eee51987d162a24c101ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\deb7b7ae0d8eee51987d162a24c101ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bbab45e958a464febe3aaea80a3451d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bbab45e958a464febe3aaea80a3451d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0b68cd3d73bb6711a7b43d3e87748e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0b68cd3d73bb6711a7b43d3e87748e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b36a7a6549ceadd833a14c1fcfb2d4cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e9f3850cbe4d7994728f01d2a16ac467\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e9f3850cbe4d7994728f01d2a16ac467\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1c11b848f82c5bd1b956d47477f7fd5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\1c11b848f82c5bd1b956d47477f7fd5a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4351a6bf7dd430cddc690044f7ced5dc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4351a6bf7dd430cddc690044f7ced5dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2c8ec773ef0deed8f60009cec190a611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2c8ec773ef0deed8f60009cec190a611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\59f140ba9b41c6e911ac6856babe819d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\59f140ba9b41c6e911ac6856babe819d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a9acfdccc4beb7ffaf3721a78a55170a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a9acfdccc4beb7ffaf3721a78a55170a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f9769cf0ff36eb94209a0a1c86870b40\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f9769cf0ff36eb94209a0a1c86870b40\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\312e97a5022b84dec6798590b0d65e96\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\312e97a5022b84dec6798590b0d65e96\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b1623b6131ddaa53eea926ef9763240\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b1623b6131ddaa53eea926ef9763240\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\929a1a8df3b79d28576f713413436512\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\929a1a8df3b79d28576f713413436512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9652403beb9b8d9c81753121cbe72bb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9652403beb9b8d9c81753121cbe72bb8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.0.aar\c6053504f4010f84a63f78d36f25836a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.6.0.aar\c6053504f4010f84a63f78d36f25836a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.0.aar\04263d18b9210ba86f1c23d8b9ac8d8f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.6.0.aar\04263d18b9210ba86f1c23d8b9ac8d8f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.6.0.aar\6f090876cc93851d92192eef03fa0666\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.6.0.aar\6f090876cc93851d92192eef03fa0666\AndroidManifest.xml:4:5-43
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.7.aar\90dacb3b28ba187110ce023104182a24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\materialish-progress-1.7.aar\90dacb3b28ba187110ce023104182a24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\7851ca79d85164ced22a628bf0cc10d8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\7851ca79d85164ced22a628bf0cc10d8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ce502f1cd051e28bae664ffbaa0ef6db\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\ce502f1cd051e28bae664ffbaa0ef6db\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\83223e08950a26cddfea1e676651e31c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.6.0.aar\83223e08950a26cddfea1e676651e31c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\5c00f7d87a891a58d421379241717953\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\5c00f7d87a891a58d421379241717953\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\60df8720d324b5e91123b6fe4fa71509\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.6.0.aar\60df8720d324b5e91123b6fe4fa71509\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.6.0.aar\43898deffa6160b7e5ac87305d38c5bb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.6.0.aar\43898deffa6160b7e5ac87305d38c5bb\AndroidManifest.xml:4:5-43
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Projects\MyTrainer\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\24985348ffb6a0e90e0f0a47b49db8b8\AndroidManifest.xml:19:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\firebase-common-11.6.0.aar\c9889122d642d311ea78446c04b7c7c0\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\6f70a40a0f6dbdf242befe3c1195d15d\AndroidManifest.xml:20:20-65
+meta-data#com.bumptech.glide.integration.webp.WebpGlideModule
+ADDED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:10:9-12:43
+	android:value
+		ADDED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:12:13-40
+	android:name
+		ADDED from [com.zlc.glide:webpdecoder:1.3.4.8.0] C:\Users\AYESHA PERERA\.gradle\caches\transforms-1\files-1.1\webpdecoder-1.3.4.8.0.aar\194e5ffd9376ff6311e56106cd38a074\AndroidManifest.xml:11:13-79
